@@ -23,8 +23,8 @@ const part1 = "java";
 const part2 = "script";
 
 // Convert the last letter of part1 and part2 to uppercase and concatenate the strings
-
-
+const result = `${part1.slice(0, -1)+part1.slice(-1).toUpperCase()}${part2.slice(0, -1)+part2.slice(-1).toUpperCase()}`;
+console.log(result);
 // Print the cameLtaiL-formatted string
 
 
